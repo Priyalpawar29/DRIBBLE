@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 9%;
+    width: 100%;
+    display: flex;
+    
+}
+#nav-prt1 img{
+    height: 86px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -10px;
+   
+}
+#nav-prt1 {
+   display: flex;
+   text-transform: capitalize;
+   color: rgb(111, 108, 108);
+   gap: 20px;
+   align-items: center;
+   
+   
+}
+#nav-prt1 h3{
+    font-weight: 500;
+    margin-top: -10px;
+    margin-left: 20px;
+    transition: all ease 0.5s;
+    font-weight: 500;
+}
+
+#nav-prt1 h3:hover{
+    color: black;
+}
+#nav-prt2{
+  margin-left: 40%;
+  margin-top: 27px;
+  font-size: 23px;
+  display: flex;
+  gap: 30px;
+
+}
+#nav-prt2 button{
+    height: 30px;
+    width: 60px;
+    text-transform: capitalize;
+}
+#nav-prt2 .a{
+color: grey;
+border: none;
+background-color: white;
+font-size: 19px;
+margin-top: -4px;
+
+}
+#nav-prt2 .b{
+    border: solid 1px transparent;
+    background-color: rgb(240, 86, 204);
+    color: white;
+    font-size: 13px;
+    height: 40px;
+    width: 85px;
+    margin-top: -7px;
+    border-radius: 13px;
+    font-size: 19px;
+    margin-left: -8px;
+}
+#container{
+    height: 69%;
+    width: 100%;
+    position: relative;
+   
+  
+    
+}
+video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+#overlay{
+    position: absolute;
+    background-color: rgba(20, 18, 18, 0.645);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    
+}
+#topbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    gap: 15px;
+
+   
+}
+#topbuttons button{
+    padding: 20px 28px;
+border-radius: 50px;
+border: none;
+font-size: 16px;
+text-transform: capitalize;
+font-weight: 600;
+background-color: rgba(20, 18, 18, 0.512);
+color: white;
+transition: all ease 0.5s;
+
+}
+#topbuttons button:nth-child(1){
+    background-color: white;
+    color: black;
+}
+#topbuttons button:hover{
+    background-color: white;
+    color: black;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 4%;
+  text-align: center;
+  color: white;
+
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 700;
+
+}
+#content p{
+    font-size: 20px;
+    
+}
+#content input{
+    height: 4rem;
+    width: 40rem;
+    padding-left: 1rem;
+    border-radius: 50px;
+    border: none;
+    margin-top: 1%;
+}
+#button2{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+    
+   
+}
+#button2 button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.506);
+    color: white;
+    transition: all ease 0.5s;
+}
+#button2 h4{
+    font-weight: 400;
+}
+#button2 button:hover{
+    border: solid 2px white;
+}
+.elem{
+    display: inline-block;
+   padding-top: 50px;
+   padding-left: 40px;
+  
+}
+ #box img{
+    height: 250px;
+width: 350px;
+border-radius: 10px;
+ }
+ #box{
+    overflow: hidden;
+    position: relative;
+ }
+ #cover{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(transparent,black);
+    position: absolute;
+    bottom: -80px ;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    transition: all ease 0.5s;
+
+    
+ }
+ #box:hover #cover{
+    bottom: 0px;
+
+ }
+    #cover h3,i{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        font-weight: 600;
+
+    }
+    #cover i{
+        padding: 5px;
+        border-radius: 5px;
+
+        height: 35px;
+        width: 35px;
+        background-color: white;
+        color: grey;
+    }
